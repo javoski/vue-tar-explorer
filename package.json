@@ -20,6 +20,9 @@
     "less": "^3.0.1",
     "less-loader": "^4.1.0"
   },
+  "vue": {
+    "baseUrl": "/vue-tar-explorer/"
+  },
   "babel": {
     "presets": [
       "@vue/app"
