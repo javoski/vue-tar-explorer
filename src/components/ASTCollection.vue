@@ -10,6 +10,7 @@
       <span class="property-value" v-else>{{ brackets.open }}{{!isEmpty ? '...' : ''}}{{ brackets.close }}</span>
     </div>
     <ul v-if="expanded && !isEmpty" class="property-list">
+      <!-- eslint-disable-next-line vue/require-v-for-key -->
       <li v-for="(v, k) in value">
         <ASTNode :name="String(k)" :value="v" />
       </li>

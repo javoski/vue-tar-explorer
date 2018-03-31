@@ -59,7 +59,7 @@ export default {
       panels: [
         { text: 'Template', show: true, icon: 'template' },
         { text: 'AST', show: true, icon: 'ast' },
-        { text: 'Render Function', show: false, icon: 'render' }
+        { text: 'Render Function', show: true, icon: 'render' }
       ]
     }
   },
