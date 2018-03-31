@@ -15,9 +15,6 @@ export default {
       required: true
     }
   },
-  mounted () {
-    console.log(this.ast)
-  },
   components: {
     ASTNode
   }
