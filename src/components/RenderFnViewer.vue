@@ -26,7 +26,7 @@ export default {
 .render-fn {
   padding: 5px 10px;
   white-space: pre;
-  overflow-x: auto;
+  overflow: auto;
 }
 </style>
 

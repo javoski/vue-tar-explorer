@@ -33,9 +33,7 @@
           />
         </div>
       </section>
-      <section class="yahaha">
-        "Yahaha! You found me!"
-      </section>
+      <section class="yahaha" v-if="activePanelsNum === 0"></section>
     </main>
   </div>
 </template>
@@ -159,6 +157,11 @@ main {
     right: 0;
     bottom: 0;
     z-index: -1;
+    background-color: #1a7b4a;
+    background-image: url(./assets/images/yahaha.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
